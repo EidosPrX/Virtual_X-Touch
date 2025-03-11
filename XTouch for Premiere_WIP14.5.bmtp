@@ -75,7 +75,6 @@ PresetSwitchIgnore=0
 [Preset.10]
 Active=1
 Comments=This preset contains the translators for the buttons in the Global View section of the X-Touch. Odd, the Global View Button itself does not appear here as far as MIDI logic goes. Instead the Global View button translators are in the Fader Banks Buttons. These 8 buttons live on the control surface just below the timecode display. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Save Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x50"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Undo Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x51"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Save Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x50"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -138,7 +137,6 @@ PresetSwitchIgnore=0
 [Preset.11]
 Active=1
 Comments=This preset contains the translators for the buttons in the Global View section of the X-Touch. Odd, the Global View Button itself does not appear here as far as MIDI logic goes. Instead the Global View button translators are in the Fader Banks Buttons. These 8 buttons live on the control surface just below the timecode display. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Marker Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x54"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Nudge Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x55"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Play Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x5E"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -297,7 +295,6 @@ PresetSwitchIgnore=0
 [Preset.12]
 Active=1
 Comments=
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Zoom Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x64"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Read/Off Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x60"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Touch Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x63"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -376,8 +373,6 @@ PresetSwitchIgnore=0
 [Preset.13]
 Active=1
 Comments=This preset contains the translators for the buttons in the Global View section of the X-Touch. Odd, the Global View Button itself does not appear here as far as MIDI logic goes. Instead the Global View button translators are in the Fader Banks Buttons. These 8 buttons live on the control surface just below the timecode display. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0003000EFrom X-Touch 10013Bome Virtual Port 30013Bome Virtual Port 2
-DefaultOutPorts=MIDA00020013Bome Virtual Port 1000CTo X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Midi Track Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x68"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Inputs Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x69"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Midi Track Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x68"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -500,7 +495,6 @@ PresetSwitchIgnore=0
 [Preset.14]
 Active=1
 Comments=This preset has 4 sets of translators for the X-Touch Jog Wheel, and two translators for the Scrub Button. Th Button has a Passthrough translator for when PrControl is not operating in Layer 7 or 8, and a translator for when Layer 7 or 8 are selected. \n\nThe Jog Wheel gains some additional functions in Layer 7 & 8. There is the Passthrough translator, and three translators that change the Jog Wheel into a value editor when you have one in entry mode (e.g. Opacity field value is selected in the Effect Controls Panel) depending on the state of the Scrub and Zoom buttons - both off, scrub on zoom off, srub off zoom on, and both on. This is my favorite preset I've built for this project in terms of usability.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Scrub Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x46"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x65"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Jog Wheel CCW+Scrub</Description><Simple Type="ControlChange"><Channel num="0" setvar="oo" Type="New Version Required"/><Value1 num="60" setvar="gg" Type="New Version Required"/><Value2 num="65" setvar="yy" Type="New Version Required"/></Simple></Incoming>
@@ -599,7 +593,6 @@ PresetSwitchIgnore=0
 [Preset.15]
 Active=1
 Comments=Controls mouse X/Y with Faders 1/2 and Encoder 1 in L7/L8 at 14-bit, with soft takeover. Passthrough for non-L7/L8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID1E0ppqq
 Incoming1=MID1E0ppqq
 Incoming2=MID1E0ppqq
@@ -646,7 +639,6 @@ PresetSwitchIgnore=0
 [Preset.16]
 Active=1
 Comments=Controls fine mouse movement (±1px) using Encoder 1 (X) and Encoder 2 (Y) in Layers 7 and 8 with relative positioning. Excludes Monitor 4 (Y capped at 2160). Other encoders (3-8) retained for panel navigation, keystrokes, etc.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Encoder 1 CW</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x10"/><Value2 num="0x01"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Encoder 1 CCW</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x10"/><Value2 num="0x41"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Encoder 2 CW</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x11"/><Value2 num="0x01"/></Simple></Incoming>
@@ -923,8 +915,6 @@ PresetSwitchIgnore=0
 [Preset.18]
 Active=0
 Comments=There are two sets in this preset. The set of "...on only" keeps lit, at all times, the LED of the latest button selected in the group, even if that button is pressed again. The second set, "...w self toggle" is the same, except the latest selection's LED can be toggled off bypressing the buutton again. This preset has the X-Touch selected as the specific port for input and output, so the translators can have "Project/preset default ports" selected in their Incoming and Outgoing tabs. Otherwise, "Specific ports" must be selected in the Incoming and Outgoing tabs for each translator, and From X-Touch1, or To X-Touch 1 must be selected.in those tabs. I suggest creating a new preset for each button group, with the Preset Default MIDI Ports specified as X-Touch (To and From) in the Preset's setting page (Preset Default MIDI Ports). This way you don't need to set each translators inpur and output.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
-DefaultOutPorts=MIDA0001000CTo X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x37"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x38"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -993,10 +983,8 @@ Outgoing9=MID1903600903800903900903A00903B00903C00903D009037rr
 PresetSwitchIgnore=0
 
 [Preset.19]
-Active=1
+Active=0
 Comments=Copy/paste these samples to the preset of your choice to create new translators for other button LEDs on the X-Touch. A momentary light needs two translators, one for ON and one for OFF. A toggling light - press once for on, again for off, can run on one translator with some logic to flip the variable in the Rule. You will need to change the variable name in the rule to match the one assigned to the button you are programming for, and where MIDI raw or sysex messages are sent, change the hex to match the button too. Button variables are defined, and the hex value is noted, in the "Set Global Variables" translator Rules located in the INIT preset. e.g. The remark above the variable j3=0 reads,"//  j3 = En8   MIDINote:39   Hex:27   On:90 27 7F   Off:90 27 00" That tells us the variable is for En8 (Encoder 8), Note 39 (hex 27). So look there if you need the info.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
-DefaultOutPorts=MIDA0001000CTo X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>From X-Touch 1</Port></Ports><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x46"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Ports><Port>From X-Touch 1</Port></Ports><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x46"/><Value2 num="0x00"/></Simple></Incoming>
 Incoming2=MID3<Incoming Action="MIDI"><Ports><Port>From X-Touch 1</Port></Ports><Simple Type="NoteOn"><Channel num="0" setvar="oo" Type="New Version Required"/><Value1 num="70" Type="New Version Required"/><Value2 num="127" Type="New Version Required"/></Simple></Incoming>
@@ -1077,7 +1065,7 @@ Name0=|
 Name1=display in log gd, gm & gs values
 Name2=display in log g1 thru g8 values
 Options0=Actv00Stop00OutO01StMa00000001label0006__cmt>
-Options1=Actv01Stop01OutO00StMa00000006label001F__log>gd currently = Layer %gd%label0020__log>gx currently = x pos: %gm%label0020__log>gy currently = y pos: %gs%label0022__log>g0 L1-6 send text true: %g0%label0020__log>g1 L7 send text true: %g1%label0020__log>g2 L8 send text true: %g2%
+Options1=Actv00Stop01OutO00StMa00000006label001F__log>gd currently = Layer %gd%label0020__log>gx currently = x pos: %gm%label0020__log>gy currently = y pos: %gs%label0022__log>g0 L1-6 send text true: %g0%label0020__log>g1 L7 send text true: %g1%label0020__log>g2 L8 send text true: %g2%
 Options2=Actv00Stop01OutO00StMa00000008label0019__log>g1 currently = %g1%label0019__log>g2 currently = %g2%label0019__log>g3 currently = %g3%label0019__log>g4 currently = %g4%label0019__log>g5 currently = %g5%label0019__log>g6 currently = %g6%label0019__log>g7 currently = %g7%label0019__log>g8 currently = %g8%
 Outgoing0=MID3<Outgoing Action="MIDI"><Description>&#124;</Description><Simple Type="ChannelPressure"><Channel num="0"/><Value1 num="0x3C"/></Simple></Outgoing>
 Outgoing1=None
@@ -1087,7 +1075,7 @@ PresetSwitchIgnore=0
 [Preset.21]
 Active=1
 Comments=Syncs faders to 14-bit mouse position from C# script via Bome Virtual Port 3. Matches raw MIDI Pitch Bend messages.
-DefaultInPorts=MIDA00010013Bome Virtual Port 3
+DefaultInPorts=MIDA0001000FFrom Mouse2MIDI
 Incoming0=MID2MIDA00010013Bome Virtual Port 3E0ppqq
 Incoming1=MID1E1ppqq
 Incoming2=MID1B0pp10qq
@@ -1108,7 +1096,7 @@ Outgoing3=None
 PresetSwitchIgnore=0
 
 [Preset.22]
-Active=1
+Active=0
 Comments=
 Incoming0=MID1905Epp
 Name=TouchOSC
@@ -1118,28 +1106,31 @@ Outgoing0=None
 PresetSwitchIgnore=0
 
 [Preset.23]
-Active=1
+Active=0
 Comments=
 DefaultOutPorts=MIDA0001000DTo X-TouchOSC
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ChannelPressure"><Channel num="0" setvar="pp" Type="New Version Required"/><Value1 setvar="qq" Type="New Version Required"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="ChannelPressure"><Channel num="0" setvar="pp" Type="New Version Required"/><Value1 setvar="qq" Type="New Version Required"/></Simple></Incoming>
 Incoming2=MID3<Incoming Action="MIDI"><Ports><Port>From PrControl</Port></Ports><Simple Type="ChannelPressure"><Channel num="0" setvar="pp" Type="New Version Required"/><Value1 setvar="qq" Type="New Version Required"/></Simple></Incoming>
-Name=X-TouchMeters
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="PitchBend"><Channel num="5"/><Value1 var="qq" Type="SetVar"/></Simple></Incoming>
+Name=X-TouchOSC
 Name0=Channel 1 Green (Segments 1–4)
 Name1=Channel 1 Amber (Segments 5–7)
 Name2=Channel 1 Red (Segment 8)
+Name3=SysVol
 Options0=Actv01Stop00OutO00StMa00000032label003D__cmt>// Extract high nibble (rr) and low nibble (ss) from pprr=pp/16ss=pp-rrss=ss*16label0006__cmt>label0035__cmt>// Only process channel 1 (rr = 0), skip if notif(rr!=0)noexecutelabel0006__cmt>label003B__cmt>// Map intensity (ss) to LED count (tt), step by steptt=0label0006__cmt>label0020__cmt>// Intensity 1 or 2: 1 LEDif(ss==1)tt=1if(ss==2)tt=1label0006__cmt>label0021__cmt>// Intensity 3 or 4: 2 LEDsif(ss==3)tt=2if(ss==4)tt=2label0006__cmt>label0021__cmt>// Intensity 5 or 6: 3 LEDsif(ss==5)tt=3if(ss==6)tt=3label0006__cmt>label0021__cmt>// Intensity 7 or 8: 4 LEDsif(ss==7)tt=4if(ss==8)tt=4label0006__cmt>label0026__cmt>// Intensity 9 or 10 (A): 5 LEDsif(ss==9)tt=5if(ss==10)tt=5label0006__cmt>label0021__cmt>// Intensity 11 (B): 6 LEDsif(ss==11)tt=6label0006__cmt>label002B__cmt>// Intensity 12 (C) or 13 (D): 7 LEDsif(ss==12)tt=7if(ss==13)tt=7label0006__cmt>label0021__cmt>// Intensity 14 (E): 8 LEDsif(ss==14)tt=8label0006__cmt>label0021__cmt>// Intensity 15 (F): 0 LEDsif(ss==15)tt=0label0006__cmt>label001D__cmt>// Green: Cap at 4 LEDsuu=ttif(tt>4)uu=4label0006__cmt>label003A__cmt>// Scale to 0-127 for TouchOSC (127/4 = ~32 per LED)vv=uu*32
 Options1=Actv01Stop00OutO00StMa00000039label003D__cmt>// Extract high nibble (rr) and low nibble (ss) from pprr=pp/16ss=pp-rrss=ss*16label0006__cmt>label0035__cmt>// Only process channel 1 (rr = 0), skip if notif(rr!=0)noexecutelabel0006__cmt>label003B__cmt>// Map intensity (ss) to LED count (tt), step by steptt=0label0006__cmt>label0020__cmt>// Intensity 1 or 2: 1 LEDif(ss==1)tt=1if(ss==2)tt=1label0006__cmt>label0021__cmt>// Intensity 3 or 4: 2 LEDsif(ss==3)tt=2if(ss==4)tt=2label0006__cmt>label0021__cmt>// Intensity 5 or 6: 3 LEDsif(ss==5)tt=3if(ss==6)tt=3label0006__cmt>label0021__cmt>// Intensity 7 or 8: 4 LEDsif(ss==7)tt=4if(ss==8)tt=4label0006__cmt>label0026__cmt>// Intensity 9 or 10 (A): 5 LEDsif(ss==9)tt=5if(ss==10)tt=5label0006__cmt>label0021__cmt>// Intensity 11 (B): 6 LEDsif(ss==11)tt=6label0006__cmt>label002B__cmt>// Intensity 12 (C) or 13 (D): 7 LEDsif(ss==12)tt=7if(ss==13)tt=7label0006__cmt>label0021__cmt>// Intensity 14 (E): 8 LEDsif(ss==14)tt=8label0006__cmt>label0021__cmt>// Intensity 15 (F): 0 LEDsif(ss==15)tt=0label0006__cmt>label003F__cmt>// Amber: LEDs 5-7 (intensity 9-D maps to 1-3 amber LEDs)uu=0if(tt<5)goto0008amberoffuu=tt-4if(tt>7)uu=3goto000Ascaleamberlabel0006__cmt>label0008amberoffuu=0label0006__cmt>label000Ascaleamberlabel003B__cmt>// Scale to 0-127 for TouchOSC (127/3 ≈ 42 per LED)vv=uu*42
 Options2=Actv01Stop00OutO00StMa00000030label003D__cmt>// Extract high nibble (rr) and low nibble (ss) from pprr=pp/16ss=pp-rrss=ss*16label0006__cmt>label0035__cmt>// Only process channel 1 (rr = 0), skip if notif(rr!=0)noexecutelabel0006__cmt>label003B__cmt>// Map intensity (ss) to LED count (tt), step by steptt=0label0006__cmt>label0020__cmt>// Intensity 1 or 2: 1 LEDif(ss==1)tt=1if(ss==2)tt=1label0006__cmt>label0021__cmt>// Intensity 3 or 4: 2 LEDsif(ss==3)tt=2if(ss==4)tt=2label0006__cmt>label0021__cmt>// Intensity 5 or 6: 3 LEDsif(ss==5)tt=3if(ss==6)tt=3label0006__cmt>label0021__cmt>// Intensity 7 or 8: 4 LEDsif(ss==7)tt=4if(ss==8)tt=4label0006__cmt>label0026__cmt>// Intensity 9 or 10 (A): 5 LEDsif(ss==9)tt=5if(ss==10)tt=5label0006__cmt>label0021__cmt>// Intensity 11 (B): 6 LEDsif(ss==11)tt=6label0006__cmt>label002B__cmt>// Intensity 12 (C) or 13 (D): 7 LEDsif(ss==12)tt=7if(ss==13)tt=7label0006__cmt>label0021__cmt>// Intensity 14 (E): 8 LEDsif(ss==14)tt=8label0006__cmt>label0021__cmt>// Intensity 15 (F): 0 LEDsif(ss==15)tt=0label0006__cmt>label002D__cmt>// Red: Only on at 8 LEDs (intensity E)uu=0if(tt==8)uu=127vv=uu
+Options3=Actv01Stop00OutO00
 Outgoing0=MID3<Outgoing Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x1E"/><Value2 var="vv"/></Simple></Outgoing>
 Outgoing1=MID3<Outgoing Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x1F"/><Value2 var="vv"/></Simple></Outgoing>
 Outgoing2=MID3<Outgoing Action="MIDI"><Ports><Port>To X-TouchOSC</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x20"/><Value2 var="vv"/></Simple></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes" SwapWinForCtrl="1"><Type>Text</Type><Keys><Key Ext="Y" VK="175"/><Key Release="Y" Ext="Y" VK="175"/></Keys></Outgoing>
 PresetSwitchIgnore=0
 
 [Preset.3]
 Active=1
 Comments=This preset contains the translators for the buttons in the Channel Strips section of the X-Touch. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Record Arm 1 Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Record Arm 1 Button</Description><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x00"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Record Arm 4 Button</Description><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x03"/><Value2 num="0x00"/></Simple></Incoming>
@@ -1778,7 +1769,6 @@ PresetSwitchIgnore=0
 [Preset.4]
 Active=1
 Comments=This preset contains the translators for the buttons in the Encoder Assign section of the X-Touch. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Track Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x28"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Pan/Balance Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Send Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x29"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -1865,7 +1855,6 @@ PresetSwitchIgnore=0
 [Preset.5]
 Active=1
 Comments=This preset contains the translators for the buttons in the Fader Banks section of the X-Touch. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Fader Bank Left Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2E"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Fader Bank Right Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2F"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Channel Right Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x31"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -1952,7 +1941,6 @@ PresetSwitchIgnore=0
 [Preset.6]
 Active=1
 Comments=
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Name/Value Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x34"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>SMPTE/Beats button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x35"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming2=MID3<Incoming Action="MIDI"><Description>&#124;</Description><Simple Type="ChannelPressure"><Channel num="0"/><Value1 num="0x3C"/></Simple></Incoming>
@@ -1991,7 +1979,6 @@ PresetSwitchIgnore=0
 [Preset.7]
 Active=1
 Comments=This preset contains the translators for the buttons in the Global View section of the X-Touch. Odd, the Global View Button itself does not appear here as far as MIDI logic goes. Instead the Global View button translators are in the Fader Banks Buttons. These 8 buttons live on the control surface just below the timecode display. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Midi Track Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Inputs Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3F"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Inputs Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3F"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -2102,7 +2089,6 @@ PresetSwitchIgnore=0
 [Preset.8]
 Active=1
 Comments=This preset contains the translators for the buttons in the Global View section of the X-Touch. Odd, the Global View Button itself does not appear here as far as MIDI logic goes. Instead the Global View button translators are in the Fader Banks Buttons. These 8 buttons live on the control surface just below the timecode display. There is a set for "Passthrough" when the PrControl Plug-In is operating in Layer 1 thru Layer 6, a second set for Layer 7 and a third set for Layer 8.
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Shift Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x46"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Option Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x47"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Shift Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x46"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -2165,7 +2151,6 @@ PresetSwitchIgnore=0
 [Preset.9]
 Active=1
 Comments=
-DefaultInPorts=MIDA0001000EFrom X-Touch 1
 Incoming0=MID3<Incoming Action="MIDI"><Description>Read/Off Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x4A"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Write Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x4B"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming10=MID3<Incoming Action="MIDI"><Description>Touch Button</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x4D"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -2251,12 +2236,12 @@ PresetSwitchIgnore=0
 
 [Project]
 Comments=Translators for extending the function of the Adobe Premiere Pro plug-in, PrControl, in use with a Behringer X-Touch Universal Control Surface. PrControl integrates audio mixing and Lumetri Color controls with Adobe Premier extremely well, but does not address the other panels in Premiere Pro. This is probably due the other panels being highly dynamic and created with older code that is mouse-centric and reliant on keystrokes for shortcuts. Luckily, PrControl, which can operate in 8 'layers' or modes, does not have any functions currently programmed in Layer 7 or 8. These translators are designed to ask if PrControl in operating in layer 7 or layer 8, and if so, then interrupt the MIDI flow and execute the keystroke or mounse movement, or whatever else the key has been programmed to do, like toggle LED's on and off, write custom text to the scribble strip, etc..\n\nThe PrControl plug-in is a little finicky (due to MIDI shortcoming, not software) when big changes are made, and usually Premiere Pro will need to be resarted to the PrControl plug-in and the X-Touch can handshake again. Once programming is complete, that should be a rare occurence.\n\nEach button, encoder and fader has a translator for PassThrough, L7Action and L8Action. Pass through just let's the MIDI stream pass by, untouched. This will be the case when PrControl is operating in Layer 1 thru Layer 6. When PrControl is operating in layer 7 or 8, some of these translators will interrupt the MIDI flow and execute what it has been programmed to do: some will send MIDI messages to PrControl; some will send messages to the X-Touch; some will send keystrokes; some will send mouse movements; and some will send mouse clicks clicks. The outputs available to be programmed are numerous.\n\nAlso while in Layer 7 or 8, and only in Layers 7 and 8, the X-Touch LEDs will be handled by different preseta (labeled: <groupname> LEDs) All. There will be four translators for each LED. One translator acts as a toggle, turning the light on (or off) with one button press, and then turning it off (or on) on the next button press. Then there are two translators for when you want a momentary light, which stays on only as long as the button is held down - one translator to turn it on, and another translator to turn it off when the button is released. The fourth translator is the Passthrough translator. These only need to be activated if you have a corresponding translator turned on for that button in Layer 7 or 8. If you are not running a translator for layer 7 or 8, then you do not need to activate the Passthrough mating translator. The LED translators are only in effect when PrControl is operating in Layer 7 or Layer 8. Even then, they are disabled by default in this preset. When you decide what each LED should do in Layer 7 and 8, if anything, then turn on the translator(s) of your choice - toggle or momentary.\n\n\n. 
-DefaultInPorts=MIDA0004000EFrom X-Touch 1000FFrom Pr Control000FFrom X-TouchOSC000FFrom Mouse2MIDI
+DefaultInPorts=MIDA0006000EFrom X-Touch 1000FFrom Pr Control000FFrom X-TouchOSC000FFrom Mouse2MIDI000BFrom SendSX000DFrom Protokol
 DefaultOutPorts=MIDA0004000CTo X-Touch 1000BTo Protokol000CTo PrControl000DTo X-TouchOSC
 Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=D6BXIo4k07qbcpB1KNsYxJQarf3XhvvOtNP3MlQThLHArmtO8quKy+/xeHxsVRaDnkUTl6k5fS2vgkKlpcczsF3NaSMNp5aIpLXgBuIiubKR3m00O8F4vT0gYlVGIRFEGWQ43McWGb2skVjdlBRXj71B/Hk+kkNjIsTf4v38hB4=
+Signature-1=Lq2MwwPapsnAfTfqhQxUUMiX9ZRu86Q04j/8ux7SpfJSz1vOVdXM54GmogPYqIw5ksfZ7cVz2ecTRGLII8FhQxpras6emEQ8jRolm2/3h9mA0TUIjzPeUh4LVatGAMqDUbQRQX618f79nzBhgiKY49kyhqD2X1+PVYeauw4Gx6U=
 SignedBy-1=Steven Lovill
 
